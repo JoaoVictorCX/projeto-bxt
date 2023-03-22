@@ -1,10 +1,11 @@
 @charset "UTF-08";
 
 body {
-    background-color: rgb(196, 196, 196);
+    background-image: url('imagens/background1.png');
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 0px;
+
 }
 
 header {
@@ -20,10 +21,17 @@ header > div {
 
 div > nav {
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    padding: 20px;
+    font-size: 0.8em;
+
 }
 
 div > img {
-    width: 60px;
+    width: 50px;
     height: auto;
 }
 
@@ -47,42 +55,55 @@ header h1 {
 }
 */
 
-nav {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-weight: bold;
-    background-color: white;
-    padding: 20px;
-    font-size: 0.8em;
-    letter-spacing: 0.02cm;
-}
+
 
 nav > a {
     padding: 5px;
     color: grey;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 20px;
+    padding: 15px;
     transition-duration: 0.2s;
 }
 
 nav > a:hover {
-    padding: 15px;
     color: black;
     background-color: greenyellow;
     
 }
 
 main {
-    background-color: rgb(240, 240, 240);
     max-width: 800px;
     margin: auto;
     padding: 20px;
 }
 
+main > h1 {
+    padding: 15px;
+    border: 1px solid black;
+    width: 400px;
+    height: auto;
+    font-size: 1.5em;
+    margin: 50px auto;
+}
+
+main > p {
+    margin: 20px;
+    font-weight: bold;
+}
+
+div.depo {
+    background-color: white;
+}
+
 footer {
-    font-size: 0.8em;
     color: white;
     background-color: black;
     padding: 5px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+
+
 }
 
