@@ -1,6 +1,7 @@
 @charset "UTF-08";
 
 body {
+    
     background-image: url('imagens/background1.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -8,7 +9,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 0px;
-
 }
 
 header {
@@ -30,7 +30,6 @@ div > nav {
     background-color: white;
     padding: 20px;
     font-size: 0.8em;
-
 }
 
 div > img {
@@ -72,11 +71,9 @@ nav > a {
 nav > a:hover {
     color: black;
     background-color: greenyellow;
-    
 }
 
 main {
-    max-width: 800px;
     margin: auto;
     padding: 20px;
 }
@@ -91,15 +88,23 @@ main > h1 {
 }
 
 main > p {
-    margin: 20px;
+    margin: auto;
+    max-width: 600px;
     font-weight: bold;
 }
 
-div.depo {
-    background-color: rgba(255, 255, 255, 0.651);
-    margin: 20px;
+#campo {
+    width: 100%;
+    margin: 0px;
+    background-color: white;
+    background-attachment: fixed;
+
+}
+
+#depo {
+    max-width: 600px;
+    margin: auto;
     padding: 20px;
-    
 }
 
 footer {
@@ -107,9 +112,7 @@ footer {
     background-color: black;
     padding: 5px;
     position: absolute;
-    width: 100%;
+    width: 99%;
     bottom: 0px;
-
-
 }
 
